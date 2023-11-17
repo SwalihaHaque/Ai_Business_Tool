@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.modal-wrapper {
+    display: none;
+    position: fixed;
+    top: 10%;
+    left: 20%;
+    right: 20%;
+    bottom: 10%;
+    padding: 20px;
+    border: 1px solid #92d9da;
+    z-index: 1000;
+    width: 650px;
+    height: 550px;
+    background-color: #ffffff;
+}
+
+.active {
+    display: block;
+}
+.modal-footer {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    height: 60px;
+    background-color: #ffffff;
+    border-top: 1px solid #e0e0f3;
+}
+
